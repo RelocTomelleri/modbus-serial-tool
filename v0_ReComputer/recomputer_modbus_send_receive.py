@@ -14,7 +14,7 @@ se vuoi usare un file di configurazione diverso:
 def convert_pin(port):
     pin = None
     if port == "/dev/ttyAMA2":
-        pin = 6;
+        pin = 6
     elif port == "/dev/ttyAMA3":
         pin = 17
     elif port == "/dev/ttyAMA5":

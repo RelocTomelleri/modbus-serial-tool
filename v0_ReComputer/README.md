@@ -35,14 +35,14 @@ pip install pyserial
 ## 🚀 Utilizzo
 * Spegni tutte le uscite
 ```bash
-python3 modbus_send_receive.py --command "01 0F 00 00 00 08 01 00 FE 95"
+python3 recomputer_modbus_send_receive.py --command "01 0F 00 00 00 08 01 00 FE 95"
 ```
 * Accendit tutte le uscite
 ```bash
-python3 modbus_send_receive.py --command "01 0F 00 00 00 08 01 FF BE D5"
+python3 recomputer_modbus_send_receive.py --command "01 0F 00 00 00 08 01 FF BE D5"
 ```
 Assicurati che i comandi includano il CRC finale
 * Specifica un fle di configurazione
 ```bash
-python3 modbus_send_receive.py --config miofile.json --command "..."
+python3 recomputer_modbus_send_receive.py --config miofile.json --command "..."
 ```
